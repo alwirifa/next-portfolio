@@ -33,7 +33,7 @@ function About({ }) {
               side projects.
             </p>
             <div className="mt-6">
-              <a className=" rounded-md px-4 py-2 font-semibold bg-sky-500  hover:bg-sky-400  dark:bg-sky-500  dark:hover:bg-sky-400 text-white cursor-pointer">
+              <a href='https://drive.google.com/file/d/1425jgwx7q9HAAVQHyQB0Wwm10JpNAb0X/view?usp=drive_link' className=" rounded-md px-4 py-2 font-medium text-sm bg-sky-500  hover:bg-sky-400  dark:bg-sky-500  dark:hover:bg-sky-400 text-white cursor-pointer">
                 Resume
               </a>
             </div>

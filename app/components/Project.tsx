@@ -84,7 +84,7 @@ const dataCard = [
   },
   {
     img: '/images/genset.jpg',
-    title: 'Genst Analysis',
+    title: 'Genset Analysis',
     text: 'Proyek X adalah salah satu proyek besar yang telah kami selesaikan di HJK Jaya Abadi. Proyek ini melibatkan desain dan konstruksi fasilitas industri yang canggih untuk klien kami. Kami bangga dapat menyelesaikan proyek ini dengan sukses dan memberikan solusi yang efisien untuk klien kami.'
   },
   {
