@@ -12,7 +12,7 @@ import Link from "next/link"
 export const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
-      "Frontend development", "Backend development", "IoT depelovment", "Data Analytics"
+      "Frontend development", "Backend development", "IoT development", "Data Analytics"
     ],
     loop: true,
     delaySpeed: 2000,
@@ -41,7 +41,7 @@ export const Hero = () => {
             <h3 className="text-4xl font-bold">I'm Alwi Rifa</h3>
             <h3 className="text-2xl font-bold">I'm into {" "} <span className="text-sky-500">{text}</span></h3>
           </div>
-          <p className="max-w-xl text-center">Proficient at troubleshooting issues related to web development, Iot, data analytic, databases, servers, and networks. Skilled in crafting aesthetically UI, user-friendly websites using multiple languages and frameworks.
+          <p className="max-w-xl text-center">Proficient at troubleshooting issues related to web development, IoT, data analytics, databases, servers, and networks. Skilled in crafting aesthetically UI, user-friendly websites using multiple languages and frameworks.
           </p>
           <div className='flex gap-2 '>
             <Button variant='outline'>
@@ -62,8 +62,6 @@ export const Hero = () => {
             </Button>
           </div>
         </div>
-
-
       </Container>
     </div>
 
