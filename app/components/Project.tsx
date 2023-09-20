@@ -51,46 +51,38 @@ const dataCard = [
   {
     img: '/images/hjk.jpg',
     title: 'HJK Jaya Abadi',
-    text: 'Proyek Y adalah proyek infrastruktur yang sedang kami kerjakan di HJK Jaya Abadi. Proyek ini mencakup pembangunan jalan raya yang penting untuk wilayah ini. Kami berkomitmen untuk menyelesaikan proyek ini dengan kualitas terbaik dan tepat waktu.',
     href: 'https://hjkjayaabadi.vercel.app/'
   },
   {
     img: '/images/wika.jpg',
     title: 'Wika Perdana',
-    text: 'Proyek Z adalah salah satu proyek renovasi bangunan yang telah kami selesaikan di HJK Jaya Abadi. Kami telah mengubah bangunan tua menjadi bangunan yang modern dan fungsional sesuai dengan kebutuhan klien kami.'
   },
   {
     img: '/images/airbnb.jpg',
     title: 'Airbnb Clone',
-    text: 'Proyek Z adalah salah satu proyek renovasi bangunan yang telah kami selesaikan di HJK Jaya Abadi. Kami telah mengubah bangunan tua menjadi bangunan yang modern dan fungsional sesuai dengan kebutuhan klien kami.',
     href: 'https://next13-airbnb-clone-ashy.vercel.app/'
   },
   {
     img: '/images/netflix.jpg',
     title: 'Netflix Clone',
-    text: 'Proyek X adalah salah satu proyek besar yang telah kami selesaikan di HJK Jaya Abadi. Proyek ini melibatkan desain dan konstruksi fasilitas industri yang canggih untuk klien kami. Kami bangga dapat menyelesaikan proyek ini dengan sukses dan memberikan solusi yang efisien untuk klien kami.',
     href: 'https://next-netflix-clone-alwi.vercel.app/auth'
   },
   {
     img: '/images/covid.jpg',
     title: 'Global Covid Dashboard',
-    text: 'Proyek Y adalah proyek infrastruktur yang sedang kami kerjakan di HJK Jaya Abadi. Proyek ini mencakup pembangunan jalan raya yang penting untuk wilayah ini. Kami berkomitmen untuk menyelesaikan proyek ini dengan kualitas terbaik dan tepat waktu.',
     href: 'https://public.tableau.com/app/profile/alwi.rifa/viz/COVID-19Cases_16403644556130/Dashboard2'
   },
   {
     img: '/images/grams.jpg',
     title: 'KAI GRAMS',
-    text: 'Proyek Z adalah salah satu proyek renovasi bangunan yang telah kami selesaikan di HJK Jaya Abadi. Kami telah mengubah bangunan tua menjadi bangunan yang modern dan fungsional sesuai dengan kebutuhan klien kami.'
   },
   {
     img: '/images/genset.jpg',
     title: 'Genset Analysis',
-    text: 'Proyek X adalah salah satu proyek besar yang telah kami selesaikan di HJK Jaya Abadi. Proyek ini melibatkan desain dan konstruksi fasilitas industri yang canggih untuk klien kami. Kami bangga dapat menyelesaikan proyek ini dengan sukses dan memberikan solusi yang efisien untuk klien kami.'
   },
   {
     img: '/images/movie.jpg',
     title: 'Scarpping web',
-    text: 'Proyek Y adalah proyek infrastruktur yang sedang kami kerjakan di HJK Jaya Abadi. Proyek ini mencakup pembangunan jalan raya yang penting untuk wilayah ini. Kami berkomitmen untuk menyelesaikan proyek ini dengan kualitas terbaik dan tepat waktu.'
   },
 
 ];
