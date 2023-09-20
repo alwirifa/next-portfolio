@@ -39,9 +39,9 @@ export const Hero = () => {
           </div>
           <div className="leading-tight text-center mt-6">
             <h3 className="text-4xl font-bold">I am Alwi Rifa</h3>
-            <h3 className="text-2xl font-bold">I am into  <span className="text-sky-500">{text}</span></h3>
+            <h3 className="text-xl font-bold">I am into  <span className="text-sky-500">{text}</span></h3>
           </div>
-          <p className="max-w-xl text-center">Proficient at troubleshooting issues related to web development, IoT, data analytics, databases, servers, and networks. Skilled in crafting aesthetically UI, user-friendly websites using multiple languages and frameworks.
+          <p className="max-w-xl smt:text-base text-sm text-center">Proficient at troubleshooting issues related to web development, IoT, data analytics, databases, servers, and networks. Skilled in crafting aesthetically UI, user-friendly websites using multiple languages and frameworks.
           </p>
           <div className='flex gap-2 '>
             <Button variant='outline'>

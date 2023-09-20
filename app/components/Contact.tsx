@@ -9,9 +9,9 @@ import { Container } from "./Container"
 export const Contact = () => {
   return (
     <Container>
-      <div id="contact" className="w-full flex flex-col items-center gap-6 justify-center p-24">
+      <div id="contact" className="w-full flex flex-col items-center gap-6 justify-center py-24">
        
-        <div className="max-w-md  w-full border-[1px] rounded-lg flex flex-col">
+        <div className="w-full border-[1px] rounded-lg flex flex-col">
           <div className="flex flex-col gap-4 p-6">
             <h3 className="text-2xl font-semibold">Get in Touch!</h3>
             <p className="text-zinc-400 text-sm ">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</p>

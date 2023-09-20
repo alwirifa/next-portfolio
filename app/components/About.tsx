@@ -18,7 +18,7 @@ function About({ }) {
           <img
             src='/images/alwiAbout.jpg'
             alt="alwi"
-            className="rounded-xl xl:w-[600px] w-[500px] shadow-xl"
+            className="hidden md:block rounded-xl xl:w-[600px] w-[500px] shadow-xl"
           />
           <div className="flex flex-col sm:gap-2 gap-1 w-full">
             <h2 className="sm:text-2xl text-base font-semibold">Hi there 👋, my name is Alwi</h2>
@@ -33,7 +33,7 @@ function About({ }) {
               side projects.
             </p>
             <div className="mt-6">
-              <a href='https://drive.google.com/file/d/1425jgwx7q9HAAVQHyQB0Wwm10JpNAb0X/view?usp=drive_link' className=" rounded-md px-4 py-2 font-medium text-sm bg-sky-500  hover:bg-sky-400  dark:bg-sky-500  dark:hover:bg-sky-400 text-white cursor-pointer">
+              <a href='https://drive.google.com/file/d/1LvLhyQEJC63RXyImHTRDW37B0ScvDo-M/view?usp=drive_link' className=" rounded-md px-4 py-2 font-medium text-sm bg-sky-500  hover:bg-sky-400  dark:bg-sky-500  dark:hover:bg-sky-400 text-white cursor-pointer">
                 Resume
               </a>
             </div>
