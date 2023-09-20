@@ -1,4 +1,6 @@
-import Link from "next/link"
+'use client'
+
+
 import { ModeToggle } from "./ModeToggle"
 import { Container } from "./Container"
 
