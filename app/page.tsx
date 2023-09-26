@@ -11,7 +11,7 @@ import HelloScreen from "./hello/page"
 export default function Home() {
   return (
     <div className="relative">
-      <HelloScreen />
+      {/* <HelloScreen /> */}
       <Hero />
       <About />
       <Project />

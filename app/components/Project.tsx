@@ -2,11 +2,9 @@
 
 import { useState } from "react"
 import { Container } from "./Container"
-import { AiOutlineStar } from "react-icons/ai"
-import { RxExternalLink } from "react-icons/rx"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
-
+import { AiOutlineGithub } from "react-icons/ai"
+import { MdOutlineIosShare } from "react-icons/md"
 
 
 interface CardProps {
@@ -18,15 +16,21 @@ interface CardProps {
 
 export const Card = ({ title, text, img, href }: CardProps) => {
   return (
-    <div id='project' className='flex flex-col justify-start gap-4 p-6 border-[1px] rounded-lg'>
+    <div id='project' className='flex flex-col justify-start gap-4 p-6 border-[1px] rounded-lg shadow-sm'>
       <div className="h-64 w-full">
-        <img src={img} alt='hero' className="h-full w-full bg-contain" />
+        <img src={img} alt='hero' className="h-full w-full bg-contain rounded-md" />
       </div>
-      <div className='flex flex-col gap-1'>
+      <div className='relative flex flex-col gap-1'>
         <h3 className='text-2xl font-semibold tracking-tight'>{title}</h3>
+
+        <div className="absolute top-0 right-0 flex gap-2">
+          <AiOutlineGithub size={24} />
+          <MdOutlineIosShare size={24} />
+        </div>
+      
         <p className='text-sm font-medium text-zinc-400'>{text}</p>
       </div>
-      <div className='mt-auto'>
+      {/* <div className='mt-auto'>
         {href &&
           <Link href={href} target="_blank">
             <Button >
@@ -34,7 +38,7 @@ export const Card = ({ title, text, img, href }: CardProps) => {
             </Button>
           </Link>
         }
-      </div>
+      </div> */}
     </div>
   )
 }
@@ -101,14 +105,14 @@ export const Project = () => {
     <div className="py-12" id="project">
 
       <Container>
-        <div className='p-6 flex flex-col items-center justify-center text-center gap-4 '>
-          <h1 className='text-2xl sm:text-4xl font-semibold tracking-tight'>Projects</h1>
-          <p className='text-sm sm:text-base max-w-4xl text-zinc-400'>
-            Some of the projects are from work and some are on my own time.
+        <div className='flex flex-col space-y-1.5 '>
+          <h1 className='text-4xl font-semibold tracking-tight'>/Projects</h1>
+          <p className='text-lg max-w-4xl text-zinc-400'>
+          Some of the projects are from work and some are on my own time.
           </p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 py-6'>
-          {dataCard.map((data, index) => (showAll || index < 3) && (
+          {dataCard.map((data, index) => (showAll || index < 6) && (
             <Card
               img={data.img}
               key={index}

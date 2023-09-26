@@ -4,25 +4,17 @@ import { Button } from "@/components/ui/button"
 import { Container } from "./Container"
 import Image from "next/image"
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai'
-import { useEffect, useState } from "react"
 
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Link from "next/link"
 
 export const Hero = () => {
-  const [text, count] = useTypewriter({
-    words: [
-      "Frontend development", "Backend development", "IoT development", "Data Analytics"
-    ],
-    loop: true,
-    delaySpeed: 2000,
-  })
+
 
 
   return (
     <div id="home">
       <Container>
-        <div
+        {/* <div
           className={`hidden sm:flex flex-col items-center justify-center gap-y-6 fixed bottom-0 left-24 py-12`}
         >
           <span className="text-xs leading-7 -rotate-90 text-slate-900 dark:text-white">
@@ -31,17 +23,17 @@ export const Hero = () => {
           <div className="h-[50px] w-[30px] border-[1px] border-zinc-500 dark:border-white rounded-full flex justify-center pt-3">
             <div className="scroll h-2 w-2 ease-linear bg-slate-900 dark:bg-white rounded-full animate-bounce"></div>
           </div>
-        </div>
+        </div */}
 
-        <div className="relative h-screen w-full flex flex-col justify-center items-center gap-4">
-          <div className="w-24 h-24 rounded-full border">
-            <Image alt='alwi' src='/images/logo.png' width='100' height='100' className="rounded-full" />
+        <div className="relative h-screen w-full flex flex-col justify-center  gap-4">
+
+          <Image src='/images/boba-tea.gif' alt='boba-tea' width='200' height='200' />
+          <div className="flex flex-col space-y-1.5">
+            <h3 className="text-5xl font-bold">Hi, <span className="text-sky-500">Alwi's</span> Here</h3>
+            <h3 className="text-2xl font-semibold">I create Stuff sometimes</h3>
           </div>
-          <div className="leading-tight text-center mt-6">
-            <h3 className="text-4xl font-bold">I am Alwi Rifa</h3>
-            <h3 className="text-xl font-bold">I am into  <span className="text-sky-500">{text}</span></h3>
-          </div>
-          <p className="max-w-xl smt:text-base text-sm text-center">Proficient at troubleshooting issues related to web development, IoT, data analytics, databases, servers, and networks. Skilled in crafting aesthetically UI, user-friendly websites using multiple languages and frameworks.
+          <p className="max-w-xl text-base">
+            I'm a software engineer based in Bandung. I have great interest in full-stack development, artificial intelligence, human-computer interactions, and everything in between.
           </p>
           <div className='flex gap-2 '>
             <Button variant='outline'>
