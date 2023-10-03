@@ -29,11 +29,11 @@ export const Hero = () => {
 
           <Image src='/images/boba-tea.gif' alt='boba-tea' width='200' height='200' />
           <div className="flex flex-col space-y-1.5">
-            <h3 className="text-5xl font-bold">Hi, <span className="text-sky-500">Alwi's</span> Here</h3>
+            <h3 className="text-5xl font-bold">Hi, <span className="text-sky-500">Alwi`s</span> Here</h3>
             <h3 className="text-2xl font-semibold">I create Stuff sometimes</h3>
           </div>
           <p className="max-w-xl text-base">
-            I'm a software engineer based in Bandung. I have great interest in full-stack development, artificial intelligence, human-computer interactions, and everything in between.
+            I am a software engineer based in Bandung. I have great interest in full-stack development, artificial intelligence, human-computer interactions, and everything in between.
           </p>
           <div className='flex gap-2 '>
             <Button variant='outline'>
